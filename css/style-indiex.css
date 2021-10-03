@@ -16,17 +16,15 @@ h1,h2,h3,h4,h5,h6, .display-4{
     color: var(--dark);
     font-weight: 700;
 }
-
-a{
-    color:var(--dark);
-    text-decoration: none;
-}
 p{
     color:rgb(102, 50, 50);
     text-decoration: none;
 
 }
-
+a{
+    color:var(--dark);
+    text-decoration: none;
+}
 .navbar .logo{
     width: 300px;
 }
