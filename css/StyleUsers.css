@@ -4,6 +4,12 @@ padding: 0;
 box-sizing: border-box;
 }
 
+body{
+    background-image: url(../imageUser/fondo.jpg);
+    background-size: 100%;
+}
+
+
 .form-register{
     width: 400px;
     background: #24303c;
@@ -30,6 +36,7 @@ box-sizing: border-box;
     border: 1px solid #1f53c5;
     font-family: 'calibri';
     font-size: 18px;
+    color: white;
 }
 
 .form-register p{
