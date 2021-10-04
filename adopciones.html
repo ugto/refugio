@@ -8,6 +8,9 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="Adopciones/style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Sora:wght@800&display=swap');
+    </style>
 </head>
 <body>
 
@@ -15,36 +18,39 @@
     <!--MENU-->
     <nav class="navbar navbar-expand-lg py-1 sticky-top navbar-light bg-white">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
             <img class="logo me-5 logo_img" src="img/logo.png" alt="">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active me-3" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active me-3 menu_barra" aria-current="page" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link me-3" href="#nosotros">Nosotros</a>
+              <a class="nav-link me-3 menu_barra" href="index.html#nosotros">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link me-3" href="#instalaciones">Instalaciones</a>
+              <a class="nav-link me-3 menu_barra" href="index.html#instalaciones">Instalaciones</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link me-3" href="#donaciones">Donaciones</a>
+              <a class="nav-link me-3 menu_barra" href="index.html#donaciones">Donaciones</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link me-3" href="#">Adopciones</a>
+              <a class="nav-link me-3 menu_barra" href="#">Adopciones</a>
             </li>
           </ul>
-          <button class="btn btn-primary ms-lg-3 me-3 ">Login</button>
+          <button class="btn btn-primary ms-lg-3 me-3 menu_barra">Login</button>
         </div>
       </div>
     </nav>
     <!--FIN DE MENU-->
 
+
+    <!--Boton de nosotros-->
+    <div class="fixed-bottom float-right boton_flotante">
+      <ion-icon name="add-circle-outline"></ion-icon>
+    </div>
+    <!--Fin de boton-->
 
     <div class="container espaciado">
         <div class="row align-items-start color">
@@ -133,7 +139,8 @@
     
     
 
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
