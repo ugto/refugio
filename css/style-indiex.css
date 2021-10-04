@@ -6,6 +6,10 @@
     --body: #888;
     --box-shadow: 0 8px 20px rgba(0,0,0,0,1);
 }
+html{
+    padding: 0;
+    width: 100%;
+}
 body{
     font-size: x-large;
     font-family: Sora,"sans-serif";
@@ -14,7 +18,7 @@ body{
 }
 h1,h2,h3,h4,h5,h6, .display-4{
     color: var(--dark);
-    font-weight: 700;
+    font-weight: 200%;
 }
 p{
     color:rgb(102, 50, 50);
@@ -25,7 +29,7 @@ a{
     text-decoration: none;
 }
 .navbar .logo{
-    width: 300px;
+    width: 100%;
 }
 .navbar .nav-link{
     font-size: 25px;
@@ -83,8 +87,8 @@ section{
     transform: translateY(5px);
 }
 .iconbox{
-    width:px;
-    height:px;
+    width: 15px;
+    height:15px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -92,3 +96,5 @@ section{
     font-size: 32px;
     border-radius: 100px;
 }
+
+
