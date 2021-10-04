@@ -1,6 +1,23 @@
-.html{
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@800&display=swap');
+
+;:root{
+    --primary: #0d6efd;
+    --dark: #21252f;
+    --body: #888;
+    --box-shadow: 0 8px 20px rgba(0,0,0,0,1);
+}
+
+h1,h2,h3,h4,h5,h6, .display-4{
+    color: var(--dark);
+    font-weight: 200%;
+}
+
+html{
     background-color: white;
     padding: 0;
+}
+.logo_img{
+    width: 25%;
 }
 .espaciado{
     padding-top: 2.5%;
@@ -28,7 +45,4 @@
 figcaption {
     display:none; 
     transition: all .5s;
-}
-h1{
-    
 }
