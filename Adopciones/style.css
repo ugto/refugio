@@ -1,0 +1,34 @@
+.html{
+    background-color: white;
+    padding: 0;
+}
+.espaciado{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.color div img:hover{
+    transition: transform 0.5s;
+    overflow: hidden;
+    transform: scale(1.2);
+    opacity: 0.5;
+    filter: brightness(30%);
+}
+.color div:hover > figcaption {
+    text-align: center;
+    font-weight: bold;
+    display:block;
+    transition: all .5s;
+    position: absolute;
+    padding: 5%;
+    color: black;
+    
+  }
+
+figcaption {
+    display:none; 
+    transition: all .5s;
+}
+h1{
+    
+}
