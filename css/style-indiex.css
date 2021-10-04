@@ -19,7 +19,6 @@ h1,h2,h3,h4,h5,h6, .display-4{
 p{
     color:rgb(102, 50, 50);
     text-decoration: none;
-
 }
 a{
     color:var(--dark);
@@ -37,7 +36,6 @@ a{
     border-width: 4px;
     border-radius: 1;
 }
-
 .hero{
     background-image: url(../img/Refugio1.png);
     background-position: center;
@@ -74,7 +72,6 @@ section{
     background-size:cover;
     min-height: 800px;
 }
-
 .car-effect{
     box-shadow: var;
     background-color:#fff;
