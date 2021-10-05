@@ -1,10 +1,10 @@
-*{
+/*{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-}
+}*/
 
-body{
+.contenido-usuarios{
     background-image: url(../img/fondo.jpg);
     background-size: 100%;
 }
@@ -44,7 +44,6 @@ height: 40px;
 text-align: center;
 font-size: 18px;
 line-height: 40px;
-
 }
 
 .form-register a:hover{
@@ -54,5 +53,8 @@ line-height: 40px;
 .form-register .btn{
     width: 100%;
     padding: 12px;
-    
+}
+
+.salida{
+    color: red;
 }
