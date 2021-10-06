@@ -124,15 +124,20 @@ main{
 
 /*Inicio Estilos Usuarios*/
 
-/*.contenido-usuarios{
+.fondo_usuarios{
     background-image: url(../img/fondo.jpg);
     background-size: 100%;
-}*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
 
 .form-register{
     width: 400px;
     background: #24303c;
-    padding: 30px;
+    padding: 40px;
     margin: auto;
     margin-top: 55px;
     border-radius: 4x;
@@ -160,6 +165,7 @@ main{
     text-align: center;
     font-size: 18px;
     line-height: 40px;
+    color: white;
     }
 
 .form-register a:hover{
@@ -171,8 +177,10 @@ main{
     padding: 12px;
 }
 .salida{
-    color: red;
+    color: rgb(255, 0, 0);
 }
+/*Fin Estilos Usuarios*/
+
 /*Inicio Estilos Index*/
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@800&display=swap');
 
