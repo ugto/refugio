@@ -173,3 +173,104 @@ main{
 .salida{
     color: red;
 }
+/*Inicio Estilos Index*/
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@800&display=swap');
+
+;:root{
+    --primary: #0d6efd;
+    --dark: #21252f;
+    --body: #888;
+    --box-shadow: 0 8px 20px rgba(0,0,0,0,1);
+}
+html{
+    padding: 0;
+    width: 100%;
+}
+body{
+    font-size: x-large;
+    font-family: Sora,"sans-serif";
+    line-height: 2;
+    color: var(--body);
+}
+h1,h2,h3,h4,h5,h6, .display-4{
+    color: var(--dark);
+    font-weight: 200%;
+}
+p{
+    color:rgb(102, 50, 50);
+    text-decoration: none;
+}
+a{
+    color:var(--dark);
+    text-decoration: none;
+}
+.navbar .logo{
+    width: 100%;
+}
+.navbar .nav-link{
+    font-size: 25px;
+    font-weight: 700;
+}
+.btn{
+    padding: 14px 18px;
+    border-width: 4px;
+    border-radius: 1;
+}
+.hero{
+    background-image: url(../img/Refugio1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+.hero::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(231, 176, 157, 0.377);
+    z-index: -1;
+}
+
+section{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.col-img{
+    background-image: url(../img/refugio9.png);
+    background-position: center;
+    background-size:cover;
+    min-height: 750px; 
+}
+.colum-img{
+    background-image: url(../img/Refugio4.png);
+    background-position: center;
+    background-size:cover;
+    min-height: 800px;
+}
+.car-effect{
+    box-shadow: var;
+    background-color:#fff;
+    padding: 25px;
+    transition: all 0.35s ease;
+}
+.card-effect:hover{
+    box-shadow:none;
+    transform: translateY(5px);
+}
+.iconbox{
+    width: 15px;
+    height:15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:salmon;
+    font-size: 32px;
+    border-radius: 100px;
+}
+/* Fin Estilos Index */
+
