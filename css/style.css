@@ -274,3 +274,69 @@ section{
 }
 /* Fin Estilos Index */
 
+/*estilos adopciones*/
+.logo_img{
+    width: 25%;
+}
+.menu_barra{
+    font-family: 'Sora';
+}
+.boton_flotante{
+    text-align: right;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    padding-left: 0%;
+    font-size: 350%;
+    color: chartreuse;
+
+}
+.ventana_texto{
+    text-align: justify;
+    color: brown;
+}
+.logo_modal{
+    text-align: center;
+}
+.espaciado{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.color div img:hover{
+    transition: transform 0.5s;
+    overflow: hidden;
+    transform: scale(1.2);
+    opacity: 0.5;
+    filter: brightness(30%);
+}
+.color div:hover > figcaption {
+    text-align: left;
+    font-weight: bold;
+    display:block;
+    transition: all .5s;
+    position: absolute;
+    
+    color: black;
+    font-family: 'Sora';
+    
+  }
+
+figcaption {
+    width: auto;
+    font-family: 'Sora';
+    display:none; 
+    transition: all .5s;
+}
+.color_text_fig{
+    background-color: cyan;
+    color: chartreuse;
+}
+.imagen_adop{
+    color: cyan;
+}
+
+
+
+
+/*fin estilos adopciones*/
+
