@@ -186,7 +186,7 @@ html{
     padding: 0;
     width: 100%;
 }
-body{
+.index{
     font-size: x-large;
     font-family: Sora,"sans-serif";
     line-height: 2;
